@@ -30,6 +30,7 @@ h3{
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 20px;
   background-color: #fcfcff;
 }
@@ -70,28 +71,32 @@ h3{
   justify-content: center;
 }
 .settings {
-  width: 400px;
-  margin-left: 100px;
+  
 }
 .settings ul {
-  line-height: 50px;
   padding-left: 0;
-}
-.settings ul li {
   list-style: none;
-  width: 100%;
+
+}
+.settings ul li{
+  padding: 15px;
+}
+.settings h1{
+  padding-left: 15px;
 }
 .settings ul li a {
   text-decoration: none;
 }
 .settings ul li:hover{
     background-color: #FCFCFF;
-    width: 120px;
-    padding: 5px;
-    border-radius: 10px;
+  
 }
 .card{
   display: flex;
+  padding-left: 50px;
+}
+.header-two{
+  padding-left: 170px;
 }
 .record{
   margin-top: 70px;
